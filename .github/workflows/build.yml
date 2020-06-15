@@ -51,3 +51,7 @@ jobs:
         id: west-build
         with:
           args: 'build "-s zmk/app -b proton_c -- -DSHIELD=petejohanson_proton_handwire -DZMK_CONFIG=$(pwd)/simple-config"'
+      - uses: actions/upload-artifact@v2
+        with:
+          name: build-output
+          path: build/
