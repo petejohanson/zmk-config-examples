@@ -1,0 +1,8 @@
+
+&default {
+	keys =
+<
+KC_P KC_R
+KC_O KC_T
+>;
+};
